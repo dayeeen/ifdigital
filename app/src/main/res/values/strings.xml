@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">IF Digital</string>
+    <string name="placeholder_search">Cari informasi tentang perkuliahan?</string>
+    <string name="section_menu">Menu</string>
+    <string name="section_salam">Assalamu`alaikum, Dian</string>
+    <string name="section_magang">Info Magang</string>
+    <string name="menu_kuliah">Kuliah</string>
+    <string name="menu_ibtitah">IbTiTah</string>
+    <string name="menu_sidang">Sidang</string>
+    <string name="menu_info">Info</string>
+    <string name="menu_prestasi">Prestasi</string>
+    <string name="menu_karir">Karir</string>
+    <string name="menu_alumni">Alumni</string>
+    <string name="menu_lainnya">Lainnya</string>
+    <string name="nav_beranda">Beranda</string>
+    <string name="nav_tugas">Tugas</string>
+    <string name="nav_sisakti">SISAKTI</string>
+    <string name="nav_bantuan">Bantuan</string>
+    <string name="nav_profil">Profil</string>
+
+</resources>
