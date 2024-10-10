@@ -14,6 +14,14 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Book
+import androidx.compose.material.icons.filled.Home
+import androidx.compose.material.icons.rounded.Assignment
+import androidx.compose.material.icons.rounded.Home
+import androidx.compose.material.icons.rounded.Person
+import androidx.compose.material.icons.rounded.PhoneEnabled
+import androidx.compose.material.icons.rounded.SmartToy
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.NavigationBar
@@ -82,7 +90,7 @@ fun BottomBar (
 ) {
     NavigationBar(
         containerColor = MaterialTheme.colorScheme.background,
-        modifier = modifier
+        modifier = modifier.padding(12.dp)
     ) {
         val navigationitems = listOf(
             NavBarItem(
@@ -91,11 +99,19 @@ fun BottomBar (
             ),
             NavBarItem(
                 title = stringResource(R.string.nav_tugas),
-                icon = Icons.Rounded.Person
+                icon = Icons.Rounded.Assignment
             ),
             NavBarItem(
                 title = stringResource(R.string.nav_sisakti),
-                icon = Icons.Default.Home
+                icon = Icons.Rounded.SmartToy
+            ),
+            NavBarItem(
+                title = stringResource(R.string.nav_bantuan),
+                icon = Icons.Rounded.PhoneEnabled
+            ),
+            NavBarItem(
+                title = stringResource(R.string.nav_profil),
+                icon = Icons.Rounded.Person
             )
         )
         navigationitems.map {
