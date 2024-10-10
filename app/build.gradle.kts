@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.dayeeen.ifdigital"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.dayeeen.ifdigital"
@@ -63,6 +63,8 @@ dependencies {
     implementation("androidx.compose.material3:material3:1.3.0")
     implementation("androidx.compose.material3:material3-window-size-class:1.3.0")
     implementation("androidx.compose.material3:material3-adaptive-navigation-suite:1.4.0-alpha01")
+    implementation("androidx.compose.material:material-icons-core:1.4.0-alpha01")
+    implementation("androidx.compose.material:material-icons-extended:1.4.0-alpha01")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
